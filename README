@@ -1,3 +1,11 @@
-Run utils.py, it will run the entire experiment 100 times, generating 4 JSON files, one for each algo's regrets. If it is taking too long to run, comment out lines 110 to 114
-Uncomment the pref_mat part to change preference matrix. 
-car_data.csv contains another preference matrix which I generated.
+# Description
+We did a survey of some of the famous Dueling Bandit algorithms and compared them in 4 different environments. The final report can be found here: https://methi1999.github.io/pdf/bandit_report.pdf
+
+# How to run
+1. Run utils.py. It will run the entire experiment for 10 iterations to average out the noise.
+2. Comment and uncomment the dataset part in the beginning to run the experiment on different datasets.
+3. A .json file will be dumped with the cumulative regret in the form of a Python list.
+
+# Acknowledgements
+
+The report contains all the papers and cites their respective authors.
