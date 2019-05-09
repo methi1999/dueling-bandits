@@ -1,0 +1,3 @@
+Run utils.py, it will run the entire experiment 100 times, generating 4 JSON files, one for each algo's regrets. If it is taking too long to run, comment out lines 110 to 114
+Uncomment the pref_mat part to change preference matrix. 
+car_data.csv contains another preference matrix which I generated.
